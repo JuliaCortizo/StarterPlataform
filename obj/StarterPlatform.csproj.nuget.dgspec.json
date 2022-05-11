@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\StarterPlatform\\StarterPlatform.csproj": {}
+    "c:\\dev\\StarterPlatform\\StarterPlatform.csproj": {}
   },
   "projects": {
-    "C:\\dev\\StarterPlatform\\StarterPlatform.csproj": {
+    "c:\\dev\\StarterPlatform\\StarterPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\StarterPlatform\\StarterPlatform.csproj",
+        "projectUniqueName": "c:\\dev\\StarterPlatform\\StarterPlatform.csproj",
         "projectName": "StarterPlatform",
-        "projectPath": "C:\\dev\\StarterPlatform\\StarterPlatform.csproj",
+        "projectPath": "c:\\dev\\StarterPlatform\\StarterPlatform.csproj",
         "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\StarterPlatform\\obj\\",
+        "outputPath": "c:\\dev\\StarterPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mnia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,6 +57,14 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
             }
           },
           "imports": [
