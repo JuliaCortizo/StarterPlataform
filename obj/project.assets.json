@@ -7562,19 +7562,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mnia\\.nuget\\packages\\": {}
+    "C:\\Users\\MLTA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\StarterPlatform\\StarterPlatform.csproj",
+      "projectUniqueName": "C:\\Users\\MLTA\\Desktop\\projetoStarter\\StarterPlataform\\StarterPlatform.csproj",
       "projectName": "StarterPlatform",
-      "projectPath": "c:\\dev\\StarterPlatform\\StarterPlatform.csproj",
-      "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\StarterPlatform\\obj\\",
+      "projectPath": "C:\\Users\\MLTA\\Desktop\\projetoStarter\\StarterPlataform\\StarterPlatform.csproj",
+      "packagesPath": "C:\\Users\\MLTA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MLTA\\Desktop\\projetoStarter\\StarterPlataform\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mnia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\MLTA\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7645,7 +7645,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
