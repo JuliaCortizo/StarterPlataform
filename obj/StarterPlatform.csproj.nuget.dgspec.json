@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\StarterPlatform\\StarterPlatform.csproj": {}
+    "C:\\Users\\JACG\\OneDrive - GFT Technologies SE\\Desktop\\starter\\StarterPlataform\\StarterPlatform.csproj": {}
   },
   "projects": {
-    "c:\\dev\\StarterPlatform\\StarterPlatform.csproj": {
+    "C:\\Users\\JACG\\OneDrive - GFT Technologies SE\\Desktop\\starter\\StarterPlataform\\StarterPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\StarterPlatform\\StarterPlatform.csproj",
+        "projectUniqueName": "C:\\Users\\JACG\\OneDrive - GFT Technologies SE\\Desktop\\starter\\StarterPlataform\\StarterPlatform.csproj",
         "projectName": "StarterPlatform",
-        "projectPath": "c:\\dev\\StarterPlatform\\StarterPlatform.csproj",
-        "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\StarterPlatform\\obj\\",
+        "projectPath": "C:\\Users\\JACG\\OneDrive - GFT Technologies SE\\Desktop\\starter\\StarterPlataform\\StarterPlatform.csproj",
+        "packagesPath": "C:\\Users\\JACG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JACG\\OneDrive - GFT Technologies SE\\Desktop\\starter\\StarterPlataform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mnia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JACG\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

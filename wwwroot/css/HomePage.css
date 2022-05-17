@@ -1,0 +1,151 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        --webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        --webkit-transform: translateY(-20px);
+        transform: translateY(-20px);  
+    }
+    80%{
+        --webkit-transform: translateY(-10px);
+        transform: translateY(-10px);  
+    }
+}
+
+body{
+    background-color: #02031a;
+}
+
+.pageCenter{
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.efeito-card:hover {
+    animation: bounce 1s;
+}
+
+.cardEsquerda{
+    background-color: #cb7ca2;
+    color: black;
+    width: 40%;
+    border-radius: 10px;
+    height: 200px;
+    position: relative;
+    transition: all 400ms ease;
+}
+
+.cardEsquerda:after, .cardDireita:after{ /*Triangulo*/
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #cb7ca2;
+    bottom: -20px; /*localização do triângulo*/
+    left: 80%;
+    /*Animação do triângulo*/
+
+    background-image: -webkit-linear-gradient(45deg, #651f71 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #651f71 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.cardEsquerda:hover:after{
+    background-position: 0;
+}
+
+.cardDireita{
+    background-color: #e6b280;
+    color: black;
+    width: 40%;
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 200px;
+    position: relative;
+}
+
+.cardDireita:after{
+    left: 10%;
+    border-top: 20px solid #e6b280;
+}
+
+.conteudo{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.cabecalho{
+    color: white;
+    text-align: center;
+}
+
+img{
+    height: 50px;
+    max-width: 20%;
+    min-width: 20%;
+    margin-left: 80%;  
+
+}
+
+.icone{
+    width: 50%;
+
+}
+
+.texto-esquerdo{
+    width: 50%;
+}
+
+.titulo-esquerdo, .titulo-direito{
+    width: 100%;
+}
+
+.csharp{
+    border-color: #cb7ca2;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #651f71 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #651f71 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.csharp:hover{
+    background-position: 0;
+}
+
+.botao{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.tecnologia{
+    margin-right: 50%;
+}
+
+.texto-direito{
+    width: 100%;
+}
